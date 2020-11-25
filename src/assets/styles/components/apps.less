@@ -1,0 +1,49 @@
+.apps {
+  margin-top: 25px;
+  margin-left: 21%;
+  .flex(row, flex-start, center);
+  &__video,
+  &__pictures,
+  &__news,
+  &__maps,
+  &__market,
+  &__translation,
+  &__music,
+  &__programme,
+  &__auto,
+  &__more {
+    margin-right: 25px;
+    text-align: center;
+    &-link {
+      font-size: 13px;
+      &:hover {
+        color: red;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+#Layout_1,
+#Layout_2,
+#Layout_3,
+#Layout_4,
+#Layout_5,
+#Layout_6,
+#Layout_7,
+#Layout_8,
+#Layout_9 {
+  //  margin-left: 8px;
+  &:hover {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    -moz-transition: transform 0.5s ease, -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease,
+      -moz-transform 0.5s ease;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}

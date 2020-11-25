@@ -1,0 +1,73 @@
+.search{
+  width: 100%;
+  .flex(row, center, center);
+  margin-top: 18px;
+
+  &__container{
+    width: 918px;
+    margin: auto;
+    position: relative;
+  }
+
+  &__logo{
+    position: absolute;
+    left: -145px;
+    top: -34px;
+    width: 140px;
+    height: 100px;
+    background: url(//yastatic.net/s3/home-static/_/x/Q/xk8YidkhGjIGOrFm_dL5781YA.svg) no-repeat;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+  &__wrapper{
+    .flex(row, flex-start, center);
+    margin-top: 2px;
+  }
+
+  &__input{
+    width: 715px;
+    height: 30px;
+    border: 0;
+    font-size: 16px;
+    padding-left: 10px;
+    &:focus{
+      outline: none;
+    }
+  }
+
+  &__input-container{
+    background:  rgb(255, 208, 0);
+    padding: 2px;
+
+  }
+
+  &__button{
+    position: relative;
+    left: 2px;
+    top: 1px;
+    width: 72px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  &__angle{
+    width: 0;
+    height: 0;
+    border-top: 17.5px solid transparent;
+    border-left: 8px solid  rgb(255, 208, 0);
+    border-bottom: 17.5px solid transparent;
+  }
+
+  &__rounded-arrow{
+    position: relative;
+    top: 1px;
+    right: 3px;
+    fill: rgb(255, 208, 0);
+    stroke:  rgb(255, 208, 0);
+  }
+}

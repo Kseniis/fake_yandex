@@ -1,0 +1,29 @@
+.weather{
+  display: flexbox;
+  flex-direction: column;
+  width: 200px;
+
+  &-link {
+    &:nth-child(1){
+      color: rgb(86, 86, 226);
+    }
+    margin-right: 5px;
+    color: blue;
+    &:hover {
+      color: rgb(169, 7, 7);
+      transition: 0.4s;
+    }
+  }
+  &__precipitation_map {
+    &-link {
+      color: rgb(86, 86, 226);
+    }
+  }
+  &__notifications {
+    size: 30px;
+  }
+  &__text_later {
+    display: flexbox;
+    flex-direction: column;
+  }
+}

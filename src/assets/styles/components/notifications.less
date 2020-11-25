@@ -1,0 +1,45 @@
+.notifications{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex(column, flex-start, flex-start);
+  padding: 10px 14px;
+
+  &__card{
+    margin: auto;
+    background: #ffffff;
+    border-radius: 3px;
+    width: 160px;
+    height: auto;
+    padding: 12px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.1);  
+  }
+
+  &__avatar{
+    background-color: black;
+    width: 34px;
+    height: 34px;
+    background-size: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    right: 11px;
+  }
+
+  &__messager {
+    font-size: 13px;
+    margin: 1px;
+    background: #ffffff;
+    border-radius: 3px;
+    width: 160px;
+    height: auto;
+    padding: 12px 10px;
+    box-shadow: 10px 10px 30px 0 rgba(41, 46, 137, 0.1), 0 10px 10px 0 rgba(41, 37, 167, 0.299);  
+  
+    &:hover{
+      transform: translateX(-15px);
+      transition: 0.4s;
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.mail{
+    position: relative;
+    font-size: 13px;
+    margin-bottom: 9px;
+  
+    &__menu{
+      padding-left: 4px;
+    }
+    &__menu-item{
+      font-size: 13px;
+      margin-bottom: 9px;
+      &:nth-child(1){
+        margin-bottom: 19px;
+        font-weight: 600;
+        position: relative;
+        left: 0.5px;
+        &:first-letter{
+          color: red;
+        }
+      }
+      &:nth-child(5){
+        color: @blue-link;
+      }
+    }
+  }

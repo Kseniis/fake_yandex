@@ -1,0 +1,57 @@
+.news{
+  width: 550px;
+
+  &__tabs{
+    width: 100%;
+    .flex(row, flex-start, center);
+  }
+  &__list-item{
+    position: relative;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  &__stocks{
+    margin-top: 9px;
+    margin-right: 1px;
+    font-size: 13px;
+  }
+
+  &__stocks_value, &__stocks_link{
+    margin-right: 2px;
+  }
+  &__stocks_diiference{
+    color: rgb(196, 194, 194);
+    font-weight: 300;
+    font-size: 12px;
+    margin-right: 8px;
+    letter-spacing: 0.7px;
+  }
+}
+
+#target {
+  line-height: 1.5;
+}
+
+#now_in_smi {
+  font-size: 18px;
+  color: rgb(134, 134, 255);
+  border: none;
+  outline: none;
+  background-color: #fff;
+  &:hover {
+    color: rgb(169, 7, 7);
+    transition: 0.4s;
+  }
+}
+
+#in_moscow {
+  font-size: 16px;
+  color: mediumblue;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  &:hover {
+    color: rgb(169, 7, 7);
+    transition: 0.4s;
+  }
+}
